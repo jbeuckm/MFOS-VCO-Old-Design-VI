@@ -4694,8 +4694,8 @@
         </pline>
       </objects>
     </layer>
-    <layer name="etch offset" color="127,255,0">
-      <ModificationCount>0</ModificationCount>
+    <layer name="etch offset" color="127,255,0" visible="false">
+      <ModificationCount>1</ModificationCount>
       <objects>
         <pline id="5514">
           <ModificationCount>3</ModificationCount>
@@ -10862,8 +10862,8 @@
         </pline>
       </objects>
     </layer>
-    <layer name="offset2" color="127,255,0">
-      <ModificationCount>0</ModificationCount>
+    <layer name="offset2" color="127,255,0" visible="false">
+      <ModificationCount>1</ModificationCount>
       <objects>
         <pline id="107">
           <ModificationCount>1</ModificationCount>
@@ -17097,278 +17097,146 @@
     </part>
     <part Name="Traces">
       <machineops>
-        <engrave>
+        <profile>
           <WorkPlane state="Default">XY</WorkPlane>
           <OptimisationMode state="Default">Experimental</OptimisationMode>
           <RoughingFinishing state="Default">Roughing</RoughingFinishing>
-          <ToolDiameter state="Value">0.0039</ToolDiameter>
-          <ToolNumber state="Value">3</ToolNumber>
+          <ToolDiameter state="Value">1E-11</ToolDiameter>
+          <ToolNumber state="Default">0</ToolNumber>
           <ToolProfile state="Value">VCutter</ToolProfile>
-          <PlungeFeedrate state="Value">20</PlungeFeedrate>
-          <CutFeedrate state="Value">30</CutFeedrate>
+          <PlungeFeedrate state="Default">10</PlungeFeedrate>
+          <CutFeedrate state="Default">30</CutFeedrate>
           <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
           <StartPoint state="Default" />
           <CustomMOPHeader state="Default" />
           <CustomMOPFooter state="Default" />
-          <Name>traces</Name>
+          <Name>Profile1</Name>
           <StockSurface state="Default">0</StockSurface>
-          <RoughingClearance state="Default">0</RoughingClearance>
+          <RoughingClearance state="Value">0.004</RoughingClearance>
           <ClearancePlane state="Default">0.125</ClearancePlane>
           <SpindleDirection state="Default">CW</SpindleDirection>
           <SpindleSpeed state="Default">1000</SpindleSpeed>
           <SpindleRange state="Default">0</SpindleRange>
           <VelocityMode state="Default">Undefined</VelocityMode>
           <primitive>
-            <prim>5514</prim>
-            <prim>5515</prim>
-            <prim>5516</prim>
-            <prim>5517</prim>
-            <prim>5518</prim>
-            <prim>5519</prim>
-            <prim>5520</prim>
-            <prim>5521</prim>
-            <prim>5522</prim>
-            <prim>5523</prim>
-            <prim>5524</prim>
-            <prim>5525</prim>
-            <prim>5526</prim>
-            <prim>5527</prim>
-            <prim>5528</prim>
-            <prim>5529</prim>
-            <prim>5530</prim>
-            <prim>5531</prim>
-            <prim>5532</prim>
-            <prim>5533</prim>
-            <prim>5534</prim>
-            <prim>5535</prim>
-            <prim>5536</prim>
-            <prim>5537</prim>
-            <prim>5538</prim>
-            <prim>5539</prim>
-            <prim>5540</prim>
-            <prim>5541</prim>
-            <prim>5542</prim>
-            <prim>5543</prim>
-            <prim>5544</prim>
-            <prim>5545</prim>
-            <prim>5546</prim>
-            <prim>5547</prim>
-            <prim>5548</prim>
-            <prim>5549</prim>
-            <prim>5550</prim>
-            <prim>5551</prim>
-            <prim>5552</prim>
-            <prim>5553</prim>
-            <prim>5554</prim>
-            <prim>5555</prim>
-            <prim>5556</prim>
-            <prim>5557</prim>
-            <prim>5558</prim>
-            <prim>5559</prim>
-            <prim>5560</prim>
-            <prim>5561</prim>
-            <prim>5562</prim>
-            <prim>5563</prim>
-            <prim>5564</prim>
-            <prim>5565</prim>
-            <prim>5566</prim>
-            <prim>5567</prim>
-            <prim>5568</prim>
-            <prim>5569</prim>
-            <prim>5570</prim>
-            <prim>5571</prim>
-            <prim>5572</prim>
-            <prim>5573</prim>
-            <prim>5574</prim>
-            <prim>5575</prim>
-            <prim>5576</prim>
-            <prim>5577</prim>
-            <prim>5578</prim>
-            <prim>5579</prim>
-            <prim>5580</prim>
-            <prim>5581</prim>
-            <prim>5582</prim>
-            <prim>5583</prim>
-            <prim>5584</prim>
-            <prim>5585</prim>
-            <prim>5586</prim>
-            <prim>5587</prim>
-            <prim>5588</prim>
-            <prim>5589</prim>
-            <prim>5590</prim>
-            <prim>5591</prim>
-            <prim>5592</prim>
-            <prim>5593</prim>
-            <prim>5594</prim>
-            <prim>5595</prim>
-            <prim>5596</prim>
-            <prim>5597</prim>
-            <prim>5598</prim>
-            <prim>5599</prim>
-            <prim>5600</prim>
-            <prim>5601</prim>
-            <prim>5602</prim>
-            <prim>5603</prim>
-            <prim>5604</prim>
-            <prim>5605</prim>
-            <prim>5606</prim>
-            <prim>5607</prim>
-            <prim>5608</prim>
-            <prim>5609</prim>
-            <prim>5610</prim>
-            <prim>5611</prim>
-            <prim>5612</prim>
-            <prim>5613</prim>
-            <prim>5614</prim>
-            <prim>5615</prim>
-            <prim>5616</prim>
-            <prim>5617</prim>
-            <prim>5618</prim>
-            <prim>5619</prim>
-            <prim>5620</prim>
-            <prim>5621</prim>
-            <prim>5622</prim>
-            <prim>5623</prim>
+            <prim>5418</prim>
+            <prim>5421</prim>
+            <prim>5422</prim>
+            <prim>5423</prim>
+            <prim>5424</prim>
+            <prim>5425</prim>
+            <prim>5426</prim>
+            <prim>5427</prim>
+            <prim>5428</prim>
+            <prim>5429</prim>
+            <prim>5430</prim>
+            <prim>5431</prim>
+            <prim>5432</prim>
+            <prim>5433</prim>
+            <prim>5434</prim>
+            <prim>5435</prim>
+            <prim>5436</prim>
+            <prim>5437</prim>
+            <prim>5438</prim>
+            <prim>5439</prim>
+            <prim>5440</prim>
+            <prim>5441</prim>
+            <prim>5442</prim>
+            <prim>5444</prim>
+            <prim>5445</prim>
+            <prim>5446</prim>
+            <prim>5447</prim>
+            <prim>5448</prim>
+            <prim>5449</prim>
+            <prim>5450</prim>
+            <prim>5451</prim>
+            <prim>5452</prim>
+            <prim>5454</prim>
+            <prim>5455</prim>
+            <prim>5456</prim>
+            <prim>5457</prim>
+            <prim>5458</prim>
+            <prim>5459</prim>
+            <prim>5460</prim>
+            <prim>5461</prim>
+            <prim>5462</prim>
+            <prim>5463</prim>
+            <prim>5464</prim>
+            <prim>5465</prim>
+            <prim>5466</prim>
+            <prim>5467</prim>
+            <prim>5468</prim>
+            <prim>5469</prim>
+            <prim>5470</prim>
+            <prim>5471</prim>
+            <prim>5472</prim>
+            <prim>5473</prim>
+            <prim>5474</prim>
+            <prim>5475</prim>
+            <prim>5476</prim>
+            <prim>5477</prim>
+            <prim>5478</prim>
+            <prim>5479</prim>
+            <prim>5480</prim>
+            <prim>5481</prim>
+            <prim>5482</prim>
+            <prim>5483</prim>
+            <prim>5484</prim>
+            <prim>5485</prim>
+            <prim>5486</prim>
+            <prim>5487</prim>
+            <prim>5488</prim>
+            <prim>5489</prim>
+            <prim>5490</prim>
+            <prim>5491</prim>
+            <prim>5492</prim>
+            <prim>5493</prim>
+            <prim>5494</prim>
+            <prim>5495</prim>
+            <prim>5496</prim>
+            <prim>5497</prim>
+            <prim>5498</prim>
+            <prim>5499</prim>
+            <prim>5500</prim>
+            <prim>5501</prim>
+            <prim>5502</prim>
+            <prim>5503</prim>
+            <prim>5504</prim>
+            <prim>5505</prim>
+            <prim>5506</prim>
+            <prim>5507</prim>
+            <prim>5508</prim>
+            <prim>5509</prim>
+            <prim>5510</prim>
+            <prim>5511</prim>
+            <prim>5443</prim>
           </primitive>
-          <TargetDepth state="Value">-0.005</TargetDepth>
+          <TargetDepth state="Value">-0.05</TargetDepth>
           <DepthIncrement state="Default">0.015</DepthIncrement>
           <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
           <CutOrdering state="Default">DepthFirst</CutOrdering>
-        </engrave>
-        <engrave>
-          <WorkPlane state="Default">XY</WorkPlane>
-          <OptimisationMode state="Default">Experimental</OptimisationMode>
-          <RoughingFinishing state="Default">Roughing</RoughingFinishing>
-          <ToolDiameter state="Value">0.0039</ToolDiameter>
-          <ToolNumber state="Value">3</ToolNumber>
-          <ToolProfile state="Value">VCutter</ToolProfile>
-          <PlungeFeedrate state="Value">20</PlungeFeedrate>
-          <CutFeedrate state="Value">30</CutFeedrate>
-          <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
-          <StartPoint state="Default" />
-          <CustomMOPHeader state="Default" />
-          <CustomMOPFooter state="Default" />
-          <Name>traces2</Name>
-          <StockSurface state="Default">0</StockSurface>
-          <RoughingClearance state="Default">0</RoughingClearance>
-          <ClearancePlane state="Default">0.125</ClearancePlane>
-          <SpindleDirection state="Default">CW</SpindleDirection>
-          <SpindleSpeed state="Default">1000</SpindleSpeed>
-          <SpindleRange state="Default">0</SpindleRange>
-          <VelocityMode state="Default">Undefined</VelocityMode>
-          <primitive>
-            <prim>107</prim>
-            <prim>108</prim>
-            <prim>109</prim>
-            <prim>110</prim>
-            <prim>111</prim>
-            <prim>112</prim>
-            <prim>113</prim>
-            <prim>114</prim>
-            <prim>115</prim>
-            <prim>116</prim>
-            <prim>117</prim>
-            <prim>118</prim>
-            <prim>119</prim>
-            <prim>120</prim>
-            <prim>121</prim>
-            <prim>122</prim>
-            <prim>123</prim>
-            <prim>124</prim>
-            <prim>125</prim>
-            <prim>126</prim>
-            <prim>127</prim>
-            <prim>128</prim>
-            <prim>129</prim>
-            <prim>130</prim>
-            <prim>131</prim>
-            <prim>132</prim>
-            <prim>133</prim>
-            <prim>134</prim>
-            <prim>135</prim>
-            <prim>136</prim>
-            <prim>137</prim>
-            <prim>138</prim>
-            <prim>139</prim>
-            <prim>140</prim>
-            <prim>141</prim>
-            <prim>142</prim>
-            <prim>143</prim>
-            <prim>144</prim>
-            <prim>145</prim>
-            <prim>146</prim>
-            <prim>147</prim>
-            <prim>148</prim>
-            <prim>149</prim>
-            <prim>150</prim>
-            <prim>151</prim>
-            <prim>152</prim>
-            <prim>153</prim>
-            <prim>154</prim>
-            <prim>155</prim>
-            <prim>156</prim>
-            <prim>157</prim>
-            <prim>158</prim>
-            <prim>159</prim>
-            <prim>160</prim>
-            <prim>161</prim>
-            <prim>162</prim>
-            <prim>163</prim>
-            <prim>164</prim>
-            <prim>165</prim>
-            <prim>166</prim>
-            <prim>167</prim>
-            <prim>168</prim>
-            <prim>169</prim>
-            <prim>170</prim>
-            <prim>171</prim>
-            <prim>172</prim>
-            <prim>173</prim>
-            <prim>174</prim>
-            <prim>175</prim>
-            <prim>176</prim>
-            <prim>177</prim>
-            <prim>178</prim>
-            <prim>179</prim>
-            <prim>180</prim>
-            <prim>181</prim>
-            <prim>182</prim>
-            <prim>183</prim>
-            <prim>184</prim>
-            <prim>185</prim>
-            <prim>186</prim>
-            <prim>187</prim>
-            <prim>188</prim>
-            <prim>189</prim>
-            <prim>190</prim>
-            <prim>191</prim>
-            <prim>192</prim>
-            <prim>193</prim>
-            <prim>194</prim>
-            <prim>195</prim>
-            <prim>196</prim>
-            <prim>197</prim>
-            <prim>198</prim>
-            <prim>199</prim>
-            <prim>200</prim>
-            <prim>201</prim>
-            <prim>202</prim>
-            <prim>203</prim>
-            <prim>204</prim>
-            <prim>205</prim>
-            <prim>206</prim>
-            <prim>207</prim>
-            <prim>208</prim>
-            <prim>209</prim>
-            <prim>210</prim>
-            <prim>211</prim>
-            <prim>212</prim>
-          </primitive>
-          <TargetDepth state="Value">-0.005</TargetDepth>
-          <DepthIncrement state="Default">0.015</DepthIncrement>
-          <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
-          <CutOrdering state="Default">DepthFirst</CutOrdering>
-        </engrave>
+          <CutWidth state="Default">0</CutWidth>
+          <StepOver state="Default">0.4</StepOver>
+          <StepoverFeedrate state="Default">Plunge Feedrate</StepoverFeedrate>
+          <InsideOutside state="Default">Outside</InsideOutside>
+          <MillingDirection state="Default">Conventional</MillingDirection>
+          <CollisionDetection state="Default">True</CollisionDetection>
+          <CornerOvercut state="Default">False</CornerOvercut>
+          <LeadInMove state="Default" />
+          <LeadOutMove state="Default" />
+          <HoldingTabs state="Default">
+            <TabMethod>None</TabMethod>
+            <Width>0.1</Width>
+            <Height>0.1</Height>
+            <MinimumTabs>3</MinimumTabs>
+            <MaximumTabs>6</MaximumTabs>
+            <TabDistance>1.6</TabDistance>
+            <SizeThreshold>0.2</SizeThreshold>
+            <UseLeadIns>False</UseLeadIns>
+            <TabStyle>Triangle</TabStyle>
+          </HoldingTabs>
+          <SideProfile state="Default" />
+        </profile>
       </machineops>
       <Stock>
         <PMin>0,0</PMin>
